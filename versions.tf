@@ -1,11 +1,11 @@
 terraform {
   backend "remote" {
     hostname     = "app.terraform.io"
-      organization = "byrne-team"
+    organization = "byrne-team"
 
-      workspaces {
-        name = "somefine_tv"
-      }
+    workspaces {
+      name = "somefine_tv"
+    }
   }
 
   required_version = ">= 1.0.8"
